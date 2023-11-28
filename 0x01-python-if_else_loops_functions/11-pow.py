@@ -17,7 +17,7 @@ def pow(a, b):
                 d = c
         return c
     else:
-        for i in range(b , -1):
+        for i in range(b, -1):
             c = d * a
             d = c
         c = 1 / c
