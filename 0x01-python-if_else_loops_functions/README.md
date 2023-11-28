@@ -1,1 +1,1 @@
-second dectionary
+second directory
