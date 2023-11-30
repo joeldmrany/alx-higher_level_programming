@@ -5,6 +5,8 @@ if __name__ == "__main__":
     a = len(arg)
     if len(arg) == 1:
         print("0 arguments.")
+    elif len(arg) == 2:
+        print("1 argument:")
     else:
         print("{} argument:".format(a - 1))
     for i in range(len(arg)):
