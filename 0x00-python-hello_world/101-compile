@@ -1,0 +1,3 @@
+#!/bin/bash
+python3 -m "$PYFILE"
+PYCOMPILED="${filename_no_ext}.pyc"
