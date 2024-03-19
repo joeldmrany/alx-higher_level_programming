@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-    if not sentence or sentence == "":
+    if not sentence or (sentence == ""):
         tuple_a = (0, None)
     else:
         i = 0
