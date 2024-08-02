@@ -1,0 +1,20 @@
+This is my test
+----------------------
+>>> add_integer = __import__('0-add_integer').add_integer
+
+>>> add_integer(1, 2)
+3
+>>> add_integer(0, 9)
+9
+>>> add_integer(10, 15)
+25
+>>> add_integer(0, 3)
+3
+>>> add_integer(0, 1)
+1
+>>> add_integer(4, 3)
+7
+>>> add_integer(4, 4)
+8
+>>> add_integer(13, 11)
+24
