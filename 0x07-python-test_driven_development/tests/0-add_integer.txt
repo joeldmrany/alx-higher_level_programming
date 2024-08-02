@@ -4,14 +4,17 @@ This is my test
 
 >>> add_integer(1, 2)
 3
->>> add_integer(0, 9)
-9
->>> add_integer(10, 15)
-25
+>>> add_integer()
+Traceback (most recent call last):
+TypeError: add_integer() missing 1 required positional argument: 'a'
+>>> add_integer(34, "fds")
+Traceback (most recent call last):
+TypeError: b must be an integer
+>>> add_integer("asdf", 756)
+Traceback (most recent call last):
+TypeError: a must be an integer
 >>> add_integer(0, 3)
 3
->>> add_integer(0, 1)
-1
 >>> add_integer(4, 3)
 7
 >>> add_integer(4, 4)
