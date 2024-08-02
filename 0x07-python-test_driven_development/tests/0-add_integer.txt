@@ -15,8 +15,8 @@ Traceback (most recent call last):
 TypeError: a must be an integer
 >>> add_integer(0, 3)
 3
->>> add_integer(4, 3)
-7
+>>> add_integer(4)
+102
 >>> add_integer(4, 4)
 8
 >>> add_integer(13, 11)
