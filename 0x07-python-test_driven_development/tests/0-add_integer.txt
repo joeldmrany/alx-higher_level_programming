@@ -17,7 +17,9 @@ TypeError: a must be an integer
 3
 >>> add_integer(4)
 102
->>> add_integer(4, 4)
-8
->>> add_integer(13, 11)
-24
+>>> add_integer(float('NAN'), 4)
+Traceback (most recent call last):
+ValueError: cannot convert float NaN to integer
+>>> add_integer(float('inf'), 11)
+Traceback (most recent call last):
+OverflowError: cannot convert float infinity to integer
