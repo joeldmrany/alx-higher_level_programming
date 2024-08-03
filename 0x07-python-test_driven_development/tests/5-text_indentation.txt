@@ -1,0 +1,14 @@
+That is my test
+----------------
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("""MY name is Youssef. Do you know me? that is sign:""")
+MY name is Youssef.
+<BLANKLINE>
+Do you know me?
+<BLANKLINE>
+that is sign:
+<BLANKLINE>
+>>> text_indentation(4534)
+Traceback (most recent call last):
+TypeError: text must be a string
