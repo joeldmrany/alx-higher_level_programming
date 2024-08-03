@@ -7,6 +7,9 @@ I hope you find the code will
 
 
 def text_indentation(text):
+    """
+    text_indentation function you can see what it do
+    """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
     i = 0
@@ -18,4 +21,4 @@ def text_indentation(text):
                 i += 1
         else:
             print(text[i], end='')
-            i +=1
+            i += 1
