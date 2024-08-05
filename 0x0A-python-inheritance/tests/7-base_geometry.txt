@@ -3,3 +3,7 @@ This is my test
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("my_int", 12)
+>>> bg.area()
+Exception: area() is not implemented
+>>> bg.integer_validator("name", 0)
+TypeError: name must be greater than 0
