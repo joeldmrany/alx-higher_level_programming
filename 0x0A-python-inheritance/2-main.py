@@ -8,3 +8,6 @@ if is_same_class(a, float):
     print("{} is an instance of the class {}".format(a, float.__name__))
 if is_same_class(a, object):
     print("{} is an instance of the class {}".format(a, object.__name__))
+b = True
+if is_same_class(b, int):
+    print("{} is an instance of the class {}".format(b, int.__name__))
