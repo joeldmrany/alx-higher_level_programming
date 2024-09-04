@@ -88,7 +88,7 @@ class Rectangle(Base):
         rest = f"{self.x}/{self.y} - {self.width}/{self.height}"
         return f"[Rectangle] ({self.id}) {rest}"
 
-     def update(self, *args, **kwargs):
+    def update(self, *args, **kwargs):
         """ update"""
         if args is not None and len(args) is not 0:
             list_atr = ['id', 'width', 'height', 'x', 'y']
