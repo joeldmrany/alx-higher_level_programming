@@ -1,1 +1,1 @@
-;
+JavaScript is object
