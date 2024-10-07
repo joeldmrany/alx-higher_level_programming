@@ -1,1 +1,1 @@
-prepare
+javascript is awsome
